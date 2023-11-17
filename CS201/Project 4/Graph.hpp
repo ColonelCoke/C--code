@@ -3,7 +3,7 @@
 * Email: oagregory@crimson.ua.edu
 * Course Section: Fall 2023 CS 201 001
 * Homework #: 4
-* To Compile g++ GraphDemo.cpp
+* To Compile g++ homework4.cpp
 * To Run: ./a.exe <input.txt>
 */
 #ifndef _GRAPH_HPP_
