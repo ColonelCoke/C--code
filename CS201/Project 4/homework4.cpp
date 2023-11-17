@@ -7,6 +7,7 @@
 #include <fstream>
 #include <string>
 #include <utility>
+#include <climits>
 
 #include "Graph.hpp"
 
