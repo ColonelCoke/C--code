@@ -1,0 +1,17 @@
+a = [2 -1 0 1 0; -4 3 0 -5 -4; 5 -2 3 1 -1; -6 2 0 -4 -2; 2 -1 0 1 0;];
+b = [1; 5; -3; 2; 3;];
+c = poly(a);
+d = polyval(c, 5);
+u = eig(a);
+e = roots(c);
+[V,D] = eig(a);
+f = V^-1 * b;
+k = 2;
+temp = (a^k)*b;
+temp1 = V*(D^k)*f;
+k = 5;
+temp2 = (a^k)*b;
+temp3 = V*(D^k)*f;
+k = 8;
+temp4 = (a^k)*b;
+temp5 = V*(D^k)*f;
